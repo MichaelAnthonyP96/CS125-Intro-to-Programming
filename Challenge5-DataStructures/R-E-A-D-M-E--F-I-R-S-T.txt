@@ -2,7 +2,7 @@ Challenge5-Data Structures - PLEASE READ CAREFULLY -
 
 Due: Monday 8pm. You have approximately one week to complete this challenge
 Note: There will be additional regrade opportunities.
-BUT... Make sure you know how to complete these problems before the next midterm (Wed April 2nd)!
+BUT... Make sure you know how to complete these problems before the next midterm (Wed April 5th)!
 
 IMPLEMENTATION REQUIREMENTS
 
