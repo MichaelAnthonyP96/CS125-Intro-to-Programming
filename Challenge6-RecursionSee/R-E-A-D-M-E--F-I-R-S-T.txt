@@ -46,7 +46,7 @@ in a temporary result instead?
 Relevant Reading?
 See the Lecture's web page and the lecture code examples:
 https://wiki.engr.illinois.edu/display/cs125/Lectures
-https://subversion.ews.illinois.edu/svn/sp14-cs125/_shared/Lectures/
+https://subversion.ews.illinois.edu/svn/sp17-cs125/_shared/Lectures/
 
 But as you asked, here's a couple of starting points  
 http://chortle.ccsu.edu/java5/Notes/chap71/ch71_1.html [Recursion]
