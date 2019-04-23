@@ -63,11 +63,28 @@ public class Stenography {
 		}
 		return result;
 	}
-
+	/**
+	*"Unhides" what the hide function does
+	*@param source - the source image with a hidden image within it to extract
+	*@return a new image that is revealed inside the hidden image
+	*@author mapope2	
+	*/
 	public static int[][] extract(int[][] source) {
 		int width = source.length, height = source[0].length;
-
 		int[][] result = new int[width][height];
+		for(int i = 0; i < width; i++){
+			for(int j = 0; j < height; j++){
+				int RGB = source[i][j];
+				int red = RGBUtilities.toRed(RGB);
+				int blue = RGBUtilities.toBlue(RGB);
+				int green = RGBUtilities.toGreen(RGB);
+
+				red = (red << 4) | 0x0F; 	
+				green = (green << 4) | 0x0F;
+				blue = (blue << 4) | 0x0F;
+
+				result[i][j] = RGBUtilities.toRGB(red, green, blue);
+			}
 		
 		/* REDACTED */
 		
