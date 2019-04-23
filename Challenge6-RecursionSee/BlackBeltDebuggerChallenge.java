@@ -38,7 +38,7 @@ public class BlackBeltDebuggerChallenge {
 	 */
 	public static char getTrial2Secret() {
 		// Warning - the value you need here is specific to you
-		return 'S';
+		return 'Q';
 	}
 
 	/**
