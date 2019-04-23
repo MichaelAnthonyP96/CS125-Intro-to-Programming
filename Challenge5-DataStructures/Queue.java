@@ -23,7 +23,7 @@ public class Queue {
 			double returnValue = Queue[Queue.length-1];
 			double[] newQueue = new double[Queue.length - 1];
 			for (int i=0;i<newQueue.length;i++) {
-				newQueue[i]=Queue[i+1];	
+				newQueue[i]=Queue[i];	
 			}
 			Queue = newQueue;
 			return returnValue;
