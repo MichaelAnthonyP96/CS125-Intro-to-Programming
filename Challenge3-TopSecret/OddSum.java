@@ -20,7 +20,6 @@ public class OddSum {
 		if (num%2==0)
 			num = num - 1;
 		int total = 0;
-		int total1 = 0;
 		TextIO.putln("Max?");
 		for (int i=0;i<=num;i++){
 			if (i%2 != 0) {
